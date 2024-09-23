@@ -1,0 +1,17 @@
+{
+  "name": "epoch(equire)-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "frontend": "cd file-compare && npm start",
+    "backend": "cd backend && npm start",
+    "start": "concurrently \"npm run frontend\" \"npm run backend\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^9.0.1"
+  }
+}
